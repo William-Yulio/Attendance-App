@@ -10,9 +10,16 @@
 		AF168ECD2A345A8200EA8637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF168ECC2A345A8200EA8637 /* AppDelegate.swift */; };
 		AF168ECF2A345A8200EA8637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF168ECE2A345A8200EA8637 /* SceneDelegate.swift */; };
 		AF168ED12A345A8200EA8637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF168ED02A345A8200EA8637 /* ViewController.swift */; };
-		AF168ED42A345A8200EA8637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF168ED22A345A8200EA8637 /* Main.storyboard */; };
 		AF168ED62A345A8300EA8637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF168ED52A345A8300EA8637 /* Assets.xcassets */; };
 		AF168ED92A345A8300EA8637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF168ED72A345A8300EA8637 /* LaunchScreen.storyboard */; };
+		AF168EEB2A348AAC00EA8637 /* AvenirLTStd-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF168EEA2A348A9200EA8637 /* AvenirLTStd-Roman.otf */; };
+		AF168EEC2A348AB000EA8637 /* AvenirLTStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF168EE82A348A9200EA8637 /* AvenirLTStd-Book.otf */; };
+		AF168EED2A348AB300EA8637 /* AvenirLTStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF168EE92A348A9200EA8637 /* AvenirLTStd-Black.otf */; };
+		AF168EEF2A34907300EA8637 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF168EEE2A34907300EA8637 /* Extension.swift */; };
+		AF2685722A36FB52007E4318 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2685712A36FB52007E4318 /* OnBoardingViewController.swift */; };
+		AF2685752A36FB98007E4318 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2685742A36FB98007E4318 /* LoginViewController.swift */; };
+		AFEA76CF2A52BD3400DDDFC4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA76CE2A52BD3400DDDFC4 /* SignUpViewController.swift */; };
+		AFEA76D12A52BD4400DDDFC4 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA76D02A52BD4400DDDFC4 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +27,17 @@
 		AF168ECC2A345A8200EA8637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF168ECE2A345A8200EA8637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AF168ED02A345A8200EA8637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF168ED32A345A8200EA8637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF168ED52A345A8300EA8637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF168ED82A345A8300EA8637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF168EDA2A345A8300EA8637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF168EE82A348A9200EA8637 /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Book.otf"; sourceTree = "<group>"; };
+		AF168EE92A348A9200EA8637 /* AvenirLTStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Black.otf"; sourceTree = "<group>"; };
+		AF168EEA2A348A9200EA8637 /* AvenirLTStd-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Roman.otf"; sourceTree = "<group>"; };
+		AF168EEE2A34907300EA8637 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		AF2685712A36FB52007E4318 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		AF2685742A36FB98007E4318 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFEA76CE2A52BD3400DDDFC4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AFEA76D02A52BD4400DDDFC4 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,86 @@
 		AF168ECB2A345A8200EA8637 /* Attendance App */ = {
 			isa = PBXGroup;
 			children = (
+				AF168EE72A348A6E00EA8637 /* Fonts */,
+				AF168EE32A3482E500EA8637 /* Helper */,
+				AF168EE22A3482DD00EA8637 /* ViewModel */,
+				AF168EE12A3482D700EA8637 /* Model */,
+				AF168EE02A3482CE00EA8637 /* View */,
 				AF168ECC2A345A8200EA8637 /* AppDelegate.swift */,
 				AF168ECE2A345A8200EA8637 /* SceneDelegate.swift */,
 				AF168ED02A345A8200EA8637 /* ViewController.swift */,
-				AF168ED22A345A8200EA8637 /* Main.storyboard */,
 				AF168ED52A345A8300EA8637 /* Assets.xcassets */,
 				AF168ED72A345A8300EA8637 /* LaunchScreen.storyboard */,
 				AF168EDA2A345A8300EA8637 /* Info.plist */,
 			);
 			path = "Attendance App";
+			sourceTree = "<group>";
+		};
+		AF168EE02A3482CE00EA8637 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF2685732A36FB68007E4318 /* Login */,
+				AF168EE62A34830A00EA8637 /* CustomView */,
+				AF168EE52A3482FD00EA8637 /* OnBoarding */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF168EE12A3482D700EA8637 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF168EE22A3482DD00EA8637 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF168EE32A3482E500EA8637 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AF168EEE2A34907300EA8637 /* Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AF168EE52A3482FD00EA8637 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				AF2685712A36FB52007E4318 /* OnBoardingViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		AF168EE62A34830A00EA8637 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		AF168EE72A348A6E00EA8637 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF168EE92A348A9200EA8637 /* AvenirLTStd-Black.otf */,
+				AF168EE82A348A9200EA8637 /* AvenirLTStd-Book.otf */,
+				AF168EEA2A348A9200EA8637 /* AvenirLTStd-Roman.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AF2685732A36FB68007E4318 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AF2685742A36FB98007E4318 /* LoginViewController.swift */,
+				AFEA76CE2A52BD3400DDDFC4 /* SignUpViewController.swift */,
+				AFEA76D02A52BD4400DDDFC4 /* ForgotPasswordViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +212,9 @@
 			files = (
 				AF168ED92A345A8300EA8637 /* LaunchScreen.storyboard in Resources */,
 				AF168ED62A345A8300EA8637 /* Assets.xcassets in Resources */,
-				AF168ED42A345A8200EA8637 /* Main.storyboard in Resources */,
+				AF168EEB2A348AAC00EA8637 /* AvenirLTStd-Roman.otf in Resources */,
+				AF168EED2A348AB300EA8637 /* AvenirLTStd-Black.otf in Resources */,
+				AF168EEC2A348AB000EA8637 /* AvenirLTStd-Book.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +225,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFEA76D12A52BD4400DDDFC4 /* ForgotPasswordViewController.swift in Sources */,
+				AF2685752A36FB98007E4318 /* LoginViewController.swift in Sources */,
+				AFEA76CF2A52BD3400DDDFC4 /* SignUpViewController.swift in Sources */,
 				AF168ED12A345A8200EA8637 /* ViewController.swift in Sources */,
 				AF168ECD2A345A8200EA8637 /* AppDelegate.swift in Sources */,
 				AF168ECF2A345A8200EA8637 /* SceneDelegate.swift in Sources */,
+				AF168EEF2A34907300EA8637 /* Extension.swift in Sources */,
+				AF2685722A36FB52007E4318 /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF168ED22A345A8200EA8637 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF168ED32A345A8200EA8637 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF168ED72A345A8300EA8637 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +376,6 @@
 				INFOPLIST_FILE = "Attendance App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +403,6 @@
 				INFOPLIST_FILE = "Attendance App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
